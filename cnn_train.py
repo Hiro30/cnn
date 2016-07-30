@@ -4,6 +4,7 @@ import tensorflow as tf
 import cnn_setting
 import os.path
 
+#エントロピー定義
 x_entropy = tf.reduce_mean(-tf.reduce_sum(cnn_setting.y_ * tf.log(cnn_setting.y), reduction_indices=[1]))
 
 optimizer = tf.train.AdamOptimizer(1e-4)
