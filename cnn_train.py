@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 import tensorflow as tf
-#変数定義
+#変数定義。
 import cnn_setting
 import os.path
 
